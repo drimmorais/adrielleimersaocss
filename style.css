@@ -1,0 +1,38 @@
+body{
+    background-image: url('https://www.mundojs.com.br/wp-content/uploads/2018/07/particulas-768x355.png');  
+    font-family: Arial;   
+    background-size: 100vh;
+    height:100vh;
+}
+
+.menu{
+    background-color:rgb(253, 246, 246) ;
+}
+
+a{
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title{
+    color: aliceblue;
+    text-align: center;
+}
+
+.site-subtitle{
+    font-style: italic;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
